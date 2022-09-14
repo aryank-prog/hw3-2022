@@ -10,15 +10,15 @@ body {
     color:#ffffff;
     margin-top: 20px;
     margin-right: 20px; 
-    margin-bottom: 20px;
-    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-left: 20px;
 }
 
 /* Style the h1 heading with:
 42px centered font 
 Padding of 15px
  */
-body main h1 {
+h1 {
     font-size: 42px;
     text-align: center;
     padding: 15px;
@@ -27,7 +27,7 @@ body main h1 {
 /* Style the h2 heading with:
 30px dark gray font (#0D0D0D) 
  */
-body main h2 {
+h2 {
     font-size: 30px;
     color: #0D0D0D
 }
@@ -36,7 +36,7 @@ body main h2 {
 24px font
 Padding of 10px on the top and left only
  */
-body main p {
+p {
     font-size: 24px;
     padding-top: 10px;
     padding-right: 0px;
@@ -49,7 +49,7 @@ All images are 250px wide  (do not set a height)
 All images are centered 
 All images have a white 10px dashed border
  */
-body main img {
+img {
     width: 250px;
     display: block;
     margin: auto;
@@ -63,7 +63,7 @@ body main img {
  Padding of 20px on all sides
 A 3px solid white border on all sides.
  */
-body div {
+div {
     min-height: 125px;
     padding: 20px;
     border-color: #ffffff;
@@ -76,7 +76,7 @@ body div {
 Margin of 15px margin on the top
 Double-spaced text
  */
-body div.introduction {
+div.introduction {
     border-radius: 15px;
     margin-top: 15px;
     line-height: 2;
@@ -88,7 +88,7 @@ Text is aligned on the right side
 A left margin of 50px;
 A  border of 2px on the bottom and 5px on the left;
  */
-body div.red {
+div.red {
     background-color: #ff0000;
     text-align: right;
     margin-left: 50px;
@@ -102,18 +102,18 @@ A right margin of 50px;
 A  border of 5px on the right and 2px on the top;
 The heading and paragraph text should use #C4C4C4
  */
-body div.blue {
+div.blue {
     background-color: #0000ff;
     text-align: left;
     margin-right: 50px;
     border-width: 2px 5px 0px 0px;
 }
 
-body div.blue p{
+div.blue p{
     color: #C4C4C4
 }
 
-body div.blue h2 {
+div.blue h2 {
     color: #C4C4C4
 }
 
@@ -124,14 +124,14 @@ A left margin of 50px;
 A border of 2px on the bottom and 5px on the left;
 The paragraph text should be #707070.  (Updated 7/7)
 */
-body div.yellow {
+div.yellow {
     background-color: #ffff00;
     text-align: right;
     margin-left: 50px;
-    border: 0px, 0px, 2px, 5px;
+    border-width: 0px 0px 2px 5px;
 }
 
-body div.yellow p {
+div.yellow p {
     color: #707070;
 }
 
@@ -141,18 +141,18 @@ Text is aligned on the left side
 A right margin of 50px;
 A  border of 5px on the right and 2px on the top;
  */
-body div.green {
+div.green {
     background-color: #008500;
     text-align: left;
     margin-right: 50px;
-    border: 2px, 5px, 0px, 0px;
+    border-width: 2px 5px 0px 0px;
 }
 
 /* Style the default footer elements with:
 a gradient background that starts at #000000, goes to #0000ff at 25,  #0066ff at 70, and ends back at #000000.
 A 5px solid white border.
  */
-body footer {
+footer {
     background: rgb(2, 0, 36);
     background: linear-gradient(90deg, #000000 0%, #0000ff 25%, #0066ff 70%, #000000 100%); 
     border: 5px;
